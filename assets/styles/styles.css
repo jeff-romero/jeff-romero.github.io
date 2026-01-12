@@ -1,0 +1,222 @@
+/* 
+    MINESWEEPER
+
+    CREATED BY: JEFFREY BRIAN NILLO ROMERO
+    GITHUB: https://github.com/jeff-romero
+            https://jeff-romero.github.io/
+    DATE: November 2025
+
+    OBFUSCATED MANUALLY BY: JEFFREY BRIAN NILLO ROMERO
+
+    NO AI USED. JUST MY SKILLS. I AM PROUD OF THAT.
+*/
+
+
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+:root {
+    --glacier-blue: #4498ae;
+    --azure-sky: #447fa7;
+    --calm-water: #7aaabc;
+    --lavender-mist: #a6a8dc;
+    --creamy: #fffff5;
+    --urban-steel: #35383e;
+}
+
+/*
+MINESWEEPER
+*/
+
+#o17d6q3 {
+    display: flex;
+    flex-direction: column;
+    justify-self: center;
+    align-items: center;
+}
+
+#feuqk1w9qszp {
+    display: flex;
+    flex-direction: column;
+    justify-self: center;
+    width: 304px;
+    height: 276px;
+    border: 2px solid black;
+}
+
+#f060jpp3zrmn0x {
+    height: 22px;
+    display: flex;
+    justify-content: space-between;
+    border: 1px solid black;
+    padding: 1px;
+}
+
+#xfwsdqb6uq3hz3 {
+    width: 50px;
+    overflow: hidden;
+    text-align: center;
+}
+
+.giy6a47za35viss {
+    width: 50px;
+    overflow: hidden;
+    text-align: center;
+    user-select: none;
+    border: 1px solid black;
+}
+
+#v9jbag7d4o1obp {
+    color: red;
+}
+
+#wara5d0xp1fpjf7 {
+    color: black;
+}
+
+#jytho10lrfasf {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.t9rm2qucormav {
+    width: 25px;
+    height: 25px;
+    background: grey;
+    color: grey;
+    text-align: center;
+    user-select: none;
+    border: 1px solid black;
+}
+
+.dktnbcqv3cugl {
+    background: silver;
+    color: silver;
+}
+
+.ts0xhgo87zq {
+    background: red;
+    color: red;
+}
+
+.mcdt3rrcj8b94a {
+    width: 23px;
+    height: 23px;
+}
+
+#bnygd1gl2f7 {
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    align-self: center;
+    transform: translateY(22px);
+}
+
+#d1r3yhwfmcvq {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #000000;
+    width: 250px;
+    height: 100px;
+    text-align: center;
+    opacity: 75%;
+}
+
+#frwb0bked0v {
+    color: red;
+    font: 32pt verdana;
+}
+
+#ihlhk07w0rx {
+    color: red;
+    font: 10pt verdana;
+}
+
+#yjf31mdq2b0jra {
+    display: flex;
+    flex-direction: column;
+    border: 2px solid black;
+    width: 280px;
+    height: 179px;
+    justify-self: center;
+    margin-top: 50px;
+    padding: 0px;
+    background-color: #424242;
+}
+
+#mfd4hb7edo {
+    border-collapse: collapse;
+}
+
+.yyyi5dormcffg0 {
+    width: 52px;
+    border: 1px solid black;
+}
+
+.yp91c386nb4a {
+    font-weight: bold;
+    width: 98px;
+    border: 1px solid black;
+}
+
+.w7vblc5v4j {
+    width: 52px;
+}
+
+.yj8ta5m5isk57nm {
+    color: white;
+    background-color: #1f1f1f;
+}
+
+#myw0513c8e {
+    display: flex;
+    flex-direction: column;
+    color: white;
+}
+
+.rilnbpaxmh5e8 {
+    display: flex;
+    justify-content: space-around;
+    height: 25px;
+    padding: 2px;
+}
+
+.tlo0n3tay52tydw {
+    background-color: rgb(128, 128, 128);
+}
+
+.nabfom1nf7tiy {
+    background-color: rgb(128, 128, 128);
+}
+
+.ojqso1uv1xft, .ygucv8a3au {
+    width: 104px;
+}
+
+.ogd6yw6xtn {
+    width: 52px;
+}
+
+.i4j4rdcsl29 {
+    display: flex;
+    justify-content: flex-end;
+    background-color: blue;
+    height: 25px;
+}
+
+#kd20pywgfci {
+    background-color: blue;
+    color: white;
+    border: none;
+    margin: 2px;
+}
