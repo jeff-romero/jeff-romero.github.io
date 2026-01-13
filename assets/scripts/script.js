@@ -97,6 +97,10 @@ class Z6cfqp7y7y0h {
     }
 
     xu4sg7qd9l7rs() {
+        let bwfyxan = document.getElementById("feuqk1w9qszp");
+        if (document.getElementById("bnygd1gl2f7") != undefined) {
+            bwfyxan.removeChild(bwfyxan.lastChild);
+        }
         this.qz11s41r8manju();
         this.see7zt00e3();
         bi63ybwh8a4ztx.innerText = this.ygtmg3rx6oy1;
@@ -335,8 +339,7 @@ class Z6cfqp7y7y0h {
         }
         else if (this.eofppqhb26[sxa3ikkqk6eq3q][jqbbaj] == ptiyhtkcv8iksx) {
             this.v07ejgiqhwwnp[sxa3ikkqk6eq3q][jqbbaj].className = "t9rm2qucormav ts0xhgo87zq";
-            this.o7mrg798d1vlmo = 0;
-            this.r86ze3();
+            this.y3s33xcl74juc();
         }
         else {
             let lc8ae91v3565rdf = this.v07ejgiqhwwnp[sxa3ikkqk6eq3q][jqbbaj].element;
@@ -354,6 +357,33 @@ class Z6cfqp7y7y0h {
                 }
             }
         }
+    }
+
+    y3s33xcl74juc() {
+        this.o7mrg798d1vlmo = 0;
+        window.clearInterval(this.cocok3u072x);
+        for (let e221gon5lczjhkd = 0; e221gon5lczjhkd < this.p2a994rrsj44; e221gon5lczjhkd++) {
+            for (let amrves = 0; amrves < this.wgdetd; amrves++) {
+                if (this.eofppqhb26[e221gon5lczjhkd][amrves] == igfizd9 && this.v07ejgiqhwwnp[e221gon5lczjhkd][amrves].className == "t9rm2qucormav") {
+                    this.v07ejgiqhwwnp[e221gon5lczjhkd][amrves].className = "t9rm2qucormav dktnbcqv3cugl";
+                }
+            }
+        }
+
+        let cjxq3eg9fcdc = document.createElement("div");
+        cjxq3eg9fcdc.id = "bnygd1gl2f7";
+        let jpbyo3lh = document.createElement("div");
+        jpbyo3lh.id = "d1r3yhwfmcvq";
+        let tv5s4jpk4u = document.createElement("p");
+        tv5s4jpk4u.id = "frwb0bked0v";
+        tv5s4jpk4u.innerText = "LOSER!";
+        let ltmul9rs = document.createElement("p");
+        ltmul9rs.id = "ihlhk07w0rx";
+        ltmul9rs.innerText = "press START button to play again";
+        jpbyo3lh.appendChild(tv5s4jpk4u);
+        jpbyo3lh.appendChild(ltmul9rs);
+        cjxq3eg9fcdc.appendChild(jpbyo3lh);
+        pigpkyp9z69i4l.appendChild(cjxq3eg9fcdc);
     }
 
     e63mtjmd7() {
@@ -383,6 +413,7 @@ class Z6cfqp7y7y0h {
                 }
             }
         }
+
         let cjxq3eg9fcdc = document.createElement("div");
         cjxq3eg9fcdc.id = "bnygd1gl2f7";
         let jpbyo3lh = document.createElement("div");
