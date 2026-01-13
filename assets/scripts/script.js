@@ -27,6 +27,11 @@ class Jrn4enfnm {
         let arp9qz92 = "" + r4wfbi7g9npm8vx;
         this.id = "C" + p0z4ecppqos4t + "-" + arp9qz92;
         this.buknzov46daih.setAttribute("onclick", "v07ejgiqhwwnp.lestrmfdik1t(this)");
+        document.addEventListener("contextmenu", function (e) {
+            if (e.target.className == "t9rm2qucormav" || e.target.className == "mcdt3rrcj8b94a") {
+                e.preventDefault();
+            }
+        });
         this.buknzov46daih.oncontextmenu = function(){v07ejgiqhwwnp.a097hgah7n8(this)};
         this.bmp3k6 = j9uw5fg6q3dvxx8;
         this.sncbgdsuvloq = t74eti8v;
