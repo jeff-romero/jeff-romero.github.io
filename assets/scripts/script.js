@@ -370,6 +370,12 @@ class Z6cfqp7y7y0h {
             }
         }
 
+        if (document.getElementById("bnygd1gl2f7") != undefined) {
+            tv5s4jpk4u.innerText = "LOSER!";
+            document.getElementById("bnygd1gl2f7").style.opacity = "100%";
+            return;
+        }
+
         let cjxq3eg9fcdc = document.createElement("div");
         cjxq3eg9fcdc.id = "bnygd1gl2f7";
         let jpbyo3lh = document.createElement("div");
@@ -412,6 +418,12 @@ class Z6cfqp7y7y0h {
                     this.v07ejgiqhwwnp[e221gon5lczjhkd][amrves].className = "t9rm2qucormav dktnbcqv3cugl";
                 }
             }
+        }
+
+        if (document.getElementById("bnygd1gl2f7") != undefined) {
+            tv5s4jpk4u.innerText = "WINNER!";
+            document.getElementById("bnygd1gl2f7").style.opacity = "100%";
+            return 1;
         }
 
         let cjxq3eg9fcdc = document.createElement("div");
