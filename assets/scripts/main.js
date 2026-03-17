@@ -53,4 +53,4 @@ class ColorSchemes {
 
 
 let nav = new Navigation();
-let colSchemes = new ColorSchemes();
+// let colSchemes = new ColorSchemes();
