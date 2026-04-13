@@ -286,3 +286,21 @@ ul {
     font-size: 0.6em;
     align-self: center;
 }
+
+.commit-showcase {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5vw;
+}
+
+.resume-image-gallery {
+    display: flex;
+    overflow-x: auto;
+    gap: 1vw;
+}
+
+.resume-image {
+    flex-shrink: 0;
+    width: 100%;
+    height: auto;
+}
