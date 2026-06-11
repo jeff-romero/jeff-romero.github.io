@@ -67,6 +67,7 @@ a {
     background-color: light-dark(var(--yuna-blonde), #454e61);
     content-visibility: auto;
     justify-content: center;
+    height: 5dvh;
 }
 
 .wip {
@@ -80,7 +81,9 @@ a {
     padding-block: 0.5vw;
     padding-inline: 0.5vw;
     text-align: center;
+    align-self: center;
     z-index: 1;
+    font-size: 2.25dvh;
 }
 .nav-item::before {
     position: absolute;
@@ -129,8 +132,9 @@ a {
     position: relative;
     display: flex;
     height: 100%;
-    align-self: center;
     user-select: none;
+    align-items: center;
+    font-size: 2.25dvh;
 }
 
 .page-wrapper {
