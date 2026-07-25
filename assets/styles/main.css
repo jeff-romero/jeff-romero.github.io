@@ -2,6 +2,7 @@
 *::after,
 *::before {
     box-sizing: border-box;
+    font-size: clamp(1.5rem, 1.5vw, 2rem);
 }
 
 /* 
@@ -83,7 +84,6 @@ a {
     text-align: center;
     align-self: center;
     z-index: 1;
-    font-size: 2.25dvh;
 }
 .nav-item::before {
     position: absolute;
@@ -241,10 +241,9 @@ hr {
     display: flex;
     flex-direction: column;
     width: 75vw;
-    gap: 0.5vw;
+    gap: clamp(1.25rem, 2vw, 2rem);
     padding: 0.5vw;
     background-color: light-dark(var(--yuna-blonde-compliment), rgb(65, 65, 65));
-    font-size: 1.3em;
 }
 
 .project-container {
