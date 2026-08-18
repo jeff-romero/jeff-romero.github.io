@@ -2,7 +2,7 @@
 *::after,
 *::before {
     box-sizing: border-box;
-    font-size: clamp(1rem, 0.7rem + 1.725vw, 1.5rem);
+    /* font-size: clamp(1rem, 0.7rem + 1.725vw, 1.5rem); */
 }
 
 /* 
