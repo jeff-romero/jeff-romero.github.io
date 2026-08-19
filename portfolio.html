@@ -2,7 +2,7 @@
 <html lang="en">
     <head>
         <title>Jeffrey Romero - Portfolio</title>
-        <meta charset="UTF-8">
+        <meta charset="UTF-8" name="viewport" content="width=device-width, initial-scale=1">
         <link rel="stylesheet" type="text/css" href="assets/styles/main.css">
         <link rel="icon" type="image/x-icon" href="assets/images/card-back.png">
     </head>
@@ -24,7 +24,27 @@
                     <h1>Banking App Simulation</h1>
                     <h3>June 2026 - Present</h3>
                 </div>
-                <img class="project-img" src="assets/images/transfer-funds.png">
+                <div class="img-gallery">
+                    <div class="display">
+                        <span id="display-progress">1 / 6</span>
+                        <img class="selected-img" src="assets/images/transfer-funds.png">
+                        <img class="selected-img" src="assets/images/home-page-july-15-2026.png">
+                        <img class="selected-img" src="assets/images/login-toast.png">
+                        <img class="selected-img" src="assets/images/withdraw-july-15-2026.png">
+                        <img class="selected-img" src="assets/images/deposit-july-15-2026.png">
+                        <img class="selected-img" src="assets/images/searchAccountByNum.png">
+                        <a class="prev" onclick="crementSlide(-1)">&#10094</a>
+                        <a class="next" onclick="crementSlide(1)">&#10095</a>
+                    </div>
+                    <div class="gallery-thumbnails">
+                        <img class="thumbnail inactive" src="assets/images/transfer-funds.png" onclick="selectImage(0)">
+                        <img class="thumbnail inactive" src="assets/images/home-page-july-15-2026.png" onclick="selectImage(1)">
+                        <img class="thumbnail inactive" src="assets/images/login-toast.png" onclick="selectImage(2)">
+                        <img class="thumbnail inactive" src="assets/images/withdraw-july-15-2026.png" onclick="selectImage(3)">
+                        <img class="thumbnail inactive" src="assets/images/deposit-july-15-2026.png" onclick="selectImage(4)">
+                        <img class="thumbnail inactive" src="assets/images/searchAccountByNum.png" onclick="selectImage(5)">
+                    </div>
+                </div>
                 <ul>
                     <li>
                         Developing a full-stack simulation of a bank which supports account creation and management, loans, and fund transfers.
@@ -60,7 +80,7 @@
                         Remember those math exams from grade school where you had to solve addition/subtraction/multiplication/division equations within a set amount of time? Now you can relive that era through this project I made!
                     </li>
                     <li>
-                        This project currently supports multiplication problems only, and I will work on support for addition, subtraction, and division. I am currently working on timer functionality though.
+                        This project currently supports multiplication problems only, and I will work on support for addition, subtraction, and division.
                     </li>
                 </ul>
                 <hr>
@@ -280,4 +300,5 @@
         </div>
     </body>
     <script src="assets/scripts/main.js"></script>
+    <script src="assets/scripts/img-gallery.js"></script>
 </html>
